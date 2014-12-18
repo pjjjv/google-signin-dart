@@ -1,0 +1,9 @@
+name: google_signin_dart
+version: 0.2.0
+author: pjv <ezelspinguin@gmail.com>
+description: Web components to authenticate with Google services. Mostly auto-generated Dart translation that is compatible with Polymer.dart. It's the red sign-in button. Original authors are Addy Osmani, Randy Merrill.
+homepage: https://github.com/pjjjv/google-signin-dart
+dependencies:
+  core_elements: ">=0.6.0+1 <0.7.0"
+  paper_elements: ">=0.6.0+3 <0.7.0"
+  polymer: ">=0.15.3+2 <0.16.0"
