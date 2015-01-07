@@ -68,6 +68,10 @@ class GoogleSignin extends PaperButtonBase {
   GoogleSignin.created() : super.created();
   factory GoogleSignin() => new Element.tag('google-signin');
 
+  void signOut(){
+    jsElement.callMethod('signOut', []);
+  }
+
   /// App package name for android over-the-air installs.
   /// See the relevant [docs](https://developers.google.com/+/web/signin/android-app-installs)
   String get appPackageName => jsElement[r'appPackageName'];
